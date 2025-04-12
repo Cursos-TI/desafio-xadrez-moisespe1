@@ -5,14 +5,14 @@
 // tabuleiro inicial de xadrez letras minusculas são peças pretas, maiúsculas são peças brancas
 char tabuleiro[8][8] = {
 
-    { 'r', 'n', 'b', 'k', 'q', 'b', 'n', 'r' }, 
+    { 't', 'c', 'b', 'k', 'q', 'b', 'c', 't' }, 
     { 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p' }, 
     { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' }, 
     { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' }, 
     { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' }, 
     { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' }, 
     { 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P' }, 
-    { 'R', 'N', 'B', 'K', 'Q', 'B', 'N', 'R' }  
+    { 'T', 'C', 'B', 'K', 'Q', 'B', 'C', 'T' }  
 
 };
 
