@@ -20,7 +20,7 @@ char tabuleiro[8][8] = {
 void exibir_tabuleiro() {
 
     int i, j;
-    char letras[] = "A B C D E F G H"; // letras das colunas
+    char letras[] = "   A   B   C   D   E   F   G   H"; // letras das colunas
 
     printf("\n%s\n", letras); // imprime o cabeçalho das colunas
     for (i = 0; i < 8; i++) {
